@@ -14,7 +14,7 @@ set pwd=`pwd`
 #source $HOME/EVAL64 4_2_8_patch4
 source $HOME/EVAL65 5_3_14
 #source $HOME/EVAL65 5_3_13
-cd     $HOME/condor
+cd     $HOME/Condor_proc
 setenv KRB5CCNAME $HOME/.krb5/ticket
 
 set logFile=/tmp/mylog_$$.log

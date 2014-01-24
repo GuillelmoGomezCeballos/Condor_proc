@@ -1,4 +1,4 @@
 Condor_proc
 ===========
 
-for condor processing
+for Condor processing

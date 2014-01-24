@@ -25,7 +25,7 @@ echo " "
 
 set STAGE_SVCCLASS=cmsprod
 
-set workDir=$HOME/condor
+set workDir=$HOME/Condor_proc
 cd $workDir
 set script=run.csh
 
@@ -51,9 +51,9 @@ else
   echo " "
 endif
 
-# Looping through each single file and submitting the condor jobs
+# Looping through each single file and submitting the Condor_proc jobs
 echo " "
-echo "Submitting jobs to condor"
+echo "Submitting jobs to Condor_proc"
 echo " "
 echo " cat $catalogDir/$book/$dataset/Filesets | grep -v ^# | cut -d' ' -f1 "
 
@@ -83,7 +83,7 @@ foreach file  ($5)
     set file = "all"
   endif
 
-  bsub -q 1nd -o $workDir/test/${skimDir}/${catalogDir}/${book}/${dataset}/${file}_${channel}_${events}_${version}.out -J ${dataset}_${file}_${channel} $HOME/condor/run.csh $runMacro $catalogDir $book $dataset $file $channel $events
+  bsub -q 1nd -o $workDir/test/${skimDir}/${catalogDir}/${book}/${dataset}/${file}_${channel}_${events}_${version}.out -J ${dataset}_${file}_${channel} $HOME/Condor_proc/run.csh $runMacro $catalogDir $book $dataset $file $channel $events
 
   if ( "$isAll" == "1" ) then
     exit 0  
