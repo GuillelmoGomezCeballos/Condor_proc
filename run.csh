@@ -12,8 +12,8 @@ echo " "; echo "Initialize CMSSW"; echo " "
 pwd
 set pwd=`pwd`
 #source $HOME/EVAL64 4_2_8_patch4
-#source $HOME/EVAL65 5_3_14
-source $HOME/EVAL65 5_3_13
+source $HOME/EVAL65 5_3_14
+#source $HOME/EVAL65 5_3_13
 cd     $HOME/condor
 setenv KRB5CCNAME $HOME/.krb5/ticket
 
