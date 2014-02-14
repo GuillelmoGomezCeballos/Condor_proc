@@ -143,6 +143,9 @@
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/PFMetFwd.h
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/PFMet.h
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/Met.h
+./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/GenJetCol.h
+./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/GenJetFwd.h
+./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/GenJet.h
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitPhysics/Mods/interface/HKFactorProducer.h
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/MCEventInfo.h
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/EmbedWeightCol.h
@@ -309,7 +312,6 @@
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/DecayDataFwd.h
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/EventHeaderFwd.h
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/GenericParticleFwd.h
-./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/GenJetFwd.h
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/JetFwd.h
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/JPTJetFwd.h
 ./runHWWSelection_C.so: /afs/cern.ch/user/c/ceballos/releases/CMSSW_5_3_14/src/MitAna/DataTree/interface/L1TriggerMaskFwd.h
