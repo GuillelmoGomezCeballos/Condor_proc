@@ -118,6 +118,7 @@
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/031   s12-h300inv-zh-v7a             58  10000000 no
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/029   s12-wjets-v2-v7a              203  10000000 no
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/029   s12-tt2l-mg-v7c               205  10000000 no
+./submitter.csh 0 ~/scratch0/catalog  cern/filefi/029   s12-ttj-v3-v7a                205  10000000 no
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/031   s12-ttj-msd-v19               205  10000000 no
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/031   s12-tt-mcnlo-v19	      205  10000000 no
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/031   s12-tt-amcnlo-v19	      205  10000000 no
@@ -150,6 +151,8 @@
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/029   s12-ww2j-mg-qcd-v7a           220  10000000 no
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/029   s12-ww2j-mg-ewk-v7a           223  10000000 no
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/029   s12-ww2j-ph-v7a               223  10000000 no
+./submitter.csh 0 ~/scratch0/catalog  cern/filefi/031   s12-wwss-ph-wh-v19            220  10000000 no
+./submitter.csh 0 ~/scratch0/catalog  cern/filefi/031   s12-wwss-ph-noh-v19           220  10000000 no
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/029   s12-ww2p-v7a                  220  10000000 no
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/029   s12-ww2m-v7a                  220  10000000 no
 ./submitter.csh 0 ~/scratch0/catalog  cern/filefi/029   s12-ww-dps-v7a                220  10000000 no
