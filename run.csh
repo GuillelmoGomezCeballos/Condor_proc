@@ -11,8 +11,11 @@ echo "*********** env ***********";
 echo " "; echo "Initialize CMSSW"; echo " "
 pwd
 set pwd=`pwd`
+/cvmfs/cms.cern.ch/cmsset_default.sh;
+cd ~/releases/CMSSW_5_3_14/src/;
+cmsenv;
 #source $HOME/EVAL64 4_2_8_patch4
-source $HOME/EVAL65 5_3_14
+#source $HOME/EVAL65 5_3_14
 #source $HOME/EVAL65 5_3_13
 cd     $HOME/Condor_proc
 setenv KRB5CCNAME $HOME/.krb5/ticket
