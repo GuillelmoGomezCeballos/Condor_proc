@@ -386,14 +386,14 @@ void runHWWSelection(const char *catalogDir   = "~/scratch0/catalog",
     fDecay = 125; theMH = 125; theWidth =  4.03e-03; myRootFile = "histo_s12-x125ww-2p-8tev-dkr"; theBWflag = -1;
   }
   else if(nsel ==  97){
-    myRootFile = "histo_qqHpmToWZToLep_TuneZ2_8TeV-500GeV-madgrahph";
-    files[0]   = "root://eoscms//eos/cms//store/user/arapyan/bambu/qqHpmToWZToLep_TuneZ2_8TeV-500GeV-madgraph_v2/*.root";
-    fDecay = 500;
+    myRootFile = "histo_wlljj";
+    files[0]   = "root://eoscms//eos/cms/store/user/anlevin/data/BAMBU/8_tev/wlljj/*.root";
+    fDecay = 27; isSaveAll = true;
   }
   else if(nsel ==  98){
-    myRootFile = "histo_qqHpmToWZToLep_TuneZ2_8TeV-900GeV-madgrahph";
-    files[0]   = "root://eoscms//eos/cms//store/user/arapyan/bambu/qqHpmToWZToLep_TuneZ2_8TeV-900GeV-madgraph/*.root";
-    fDecay = 900;
+    myRootFile = "histo_wpwpjj_ewk_qcd";
+    files[0]   = "root://eoscms//eos/cms/store/user/anlevin/data/BAMBU/8_tev/wpwpjj_ewk_qcd_v1/*.root";
+    fDecay = 34; isSaveAll = true;
   }
   else if(nsel == 200){
     fDecay = 0;
